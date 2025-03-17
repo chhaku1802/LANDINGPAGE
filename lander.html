@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beautiful landing page with modern design and functionality">
+    <meta name="author" content="Your Name">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">MyWebsite</div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Welcome to Your Future</h1>
+                <p>Transform your experience with our product. It’s everything you need.</p>
+                <a href="#cta" class="cta-btn">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="feature">
+                <h2>Feature 1</h2>
+                <p>Our product provides cutting-edge technology to help you succeed.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 2</h2>
+                <p>Experience ease of use with an intuitive interface and powerful tools.</p>
+            </div>
+            <div class="feature">
+                <h2>Feature 3</h2>
+                <p>Our support team is available 24/7 to assist you with any questions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a passionate team building solutions that make a difference. Our mission is to bring innovative products that help you grow.</p>
+        </div>
+    </section>
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Join Us Today!</h2>
+            <p>Get started with a free trial and unlock all the amazing features!</p>
+            <a href="#contact" class="cta-btn">Start Now</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form" class="contact-form" onsubmit="submitForm(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="form-status"></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MyWebsite. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
